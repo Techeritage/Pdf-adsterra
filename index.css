@@ -1,0 +1,185 @@
+body {
+  margin: 0; 
+}
+
+h3, h2, h1, p {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: blue;
+}
+
+#navbar {
+  background: url(book.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  z-index: 10;
+  display: flex; 
+  align-items: center; 
+}
+
+.wb-name {
+  margin: 0;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 2px;
+  flex: 1;
+  font-family: 'Alegreya', serif;
+}
+
+.contact {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 20px;
+  
+  
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight:500;
+  font-family: 'Alegreya', serif;
+}
+
+
+.contact a:hover {
+  background-color: black;
+  color: white;
+}
+
+.top-nav {
+  padding: 0 0 20px 0;
+  background: url('book.jpg')no-repeat;
+  background-size: cover;
+  background-position: top;
+  z-index: 0;
+}
+
+.info-detail {
+  padding: 100px 0 50px 0;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: -43px;
+}
+
+.id-title {
+  font-family: 'Alegreya', serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: rgb(223, 9, 9);
+}
+
+.id-detail {
+  font-family: 'Alegreya', serif;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.id-detail1 {
+  color: white;
+  padding-right: 30px;
+  font-size: 16px;
+  font-family: 'Alegreya', serif;
+  font-weight: 400;
+}
+
+.gbn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gbn-btn, .gbn-btn a {
+  border: none;
+  background-color: rgb(223, 9, 9);
+  color: white;
+  padding: 10px 30px;
+  font-size: 18px;
+  margin: 10px 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  border-radius: 2px;
+}
+
+.gbn-btn:hover {
+  color: rgb(223, 9, 9);
+  transition: 0.1s;
+  background-color: white;
+}
+
+.ads {
+ padding: 30px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-case {
+  background-color: rgb(243, 243, 243);
+  padding: 50px 20px;
+  margin: 30px 15px;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.3);
+}
+
+.section-case h3 {
+  margin-bottom: 40px;
+}
+
+.section-case ul {
+  padding: 0 20px;
+}
+
+.section-case li {
+  margin: 20px 0;
+  color: rgb(64, 64, 64);
+}
+
+
+
+.foot-end {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 10px 40px;
+  white-space: nowrap;
+}
+
+span {
+  color: rgb(182, 182, 182);
+}
+
+
